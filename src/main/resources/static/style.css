@@ -1,0 +1,9 @@
+body {
+    background-color: #333333;
+    color: white;
+}
+
+.output {
+    background-color: #111111;
+    length: 100vh;
+}
