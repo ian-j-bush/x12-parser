@@ -1,8 +1,7 @@
 package com.ianjbush.x12parser.controller;
 
 import com.ianjbush.x12parser.service.ClaimService;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,7 +14,7 @@ public class ClaimController {
         this.service = service;
     }
 
-    @PostMapping( "/{id}" )
+    @GetMapping( "/{id}" )
     public String post( @RequestBody String value ) {
         return "index";
     }
