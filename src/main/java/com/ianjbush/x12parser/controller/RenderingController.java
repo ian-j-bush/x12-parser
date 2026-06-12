@@ -1,8 +1,6 @@
 package com.ianjbush.x12parser.controller;
 
 import com.ianjbush.x12parser.service.RenderService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
