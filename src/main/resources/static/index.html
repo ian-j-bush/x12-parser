@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>X12 Parser</title>
+</head>
+<body>
+<header>
+  <h1>X12 Parser</h1>
+  Converts EDI 837 files into different viewable formats.
+</header>
+<main>
+  <div class="edi-selector">
+    <button class="edi-type" id="prof">837P</button>
+    <button class="edi-type" id="inst">837I</button>
+    <button class="edi-type" id="dent">837D</button>
+  </div>
+  <div class="output-selector">
+    <button class="output-type" id="raw" disabled>Raw</button>
+    <button class="output-type" id="image" disabled>Image</button>
+    <button class="output-type" id="list" disabled>List</button>
+  </div>
+  <div class="output">
+  </div>
+</main>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
