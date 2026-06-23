@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class ImageRenderService implements RenderService {
 
     @Override
-    public Object render( ) {
+    public Object render( String body ) {
         //TODO: Render the EDI as a claim image
         return null;
     }

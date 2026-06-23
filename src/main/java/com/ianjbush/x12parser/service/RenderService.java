@@ -5,5 +5,5 @@ import org.springframework.web.bind.annotation.PostMapping;
 public interface RenderService {
 
     @PostMapping
-    public Object render( );
+    public Object render( String body );
 }

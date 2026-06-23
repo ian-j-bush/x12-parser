@@ -17,8 +17,8 @@ public class ClaimController {
     }
 
     @GetMapping( value = "/{id}", produces = MediaType.TEXT_PLAIN_VALUE )
-    public Object retrieveClaimData( @PathVariable String id ) {
+    public String retrieveClaimData( @PathVariable String id ) {
 
-        return "ID: " + id;
+        return service.retrieveClaim( id );
     }
 }

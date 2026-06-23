@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 public class TextRenderService implements RenderService {
 
     @Override
-    public Object render( ) {
+    public Object render( String body ) {
         //TODO: Render the EDI in raw text
-        return null;
+        return body;
     }
 }
