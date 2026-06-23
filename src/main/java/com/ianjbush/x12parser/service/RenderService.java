@@ -6,4 +6,6 @@ public interface RenderService {
 
     @PostMapping
     public Object render( String body );
+
+    public String getType();
 }
