@@ -7,6 +7,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+/**
+ * Component which enables dynamic switching between rendering modes.
+ */
 @Component
 public class RenderServiceRegistry {
 
